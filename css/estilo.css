@@ -1,0 +1,116 @@
+html,body{height:100%;}
+.container{
+	display: block;
+	min-height: 100%;
+}
+body{
+	background-color:#000;
+	font-size: 12px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.grad{
+	background: url('../img/grad-mov-1.png');
+	background-repeat: repeat-y;
+	background-position: center;
+}
+@media screen and (min-width: 450px){
+	.grad{
+	background: url('../img/grad.png');
+	background-repeat: repeat-y;
+	background-position: center;}
+}
+
+@media screen and (min-width: 768px){
+	.grad{
+	background: url('../img/grad.png');
+	background-repeat: repeat-y;
+	background-position: center;
+	}
+}
+.clear-top{
+	height: 31px;
+	display: block;
+	width:100%;
+}
+.img-logo{
+	margin-bottom: 44px;
+}
+.ingrese{
+	text-align: center;
+	color:#adadad;
+}
+.contenedor-form{
+	width: 100%;
+	max-width: 290px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.formulario-1{
+	padding-top: 20px;
+}
+.clear-forms{
+	height: 20px;
+	display: block;
+	width: 100%;
+}
+.condiciones{
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.terminos{
+	color: #6f91b4;
+	text-decoration: underline;
+}
+.terminos:hover{
+	color: #FFF
+}
+.btn-conectar{
+	padding-top:20px;
+	padding-bottom:20px;
+	width: 100%;
+	max-width:  205px;
+	background: #34404c;
+	display: block;
+	color: #FFF;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: 700;
+	border: solid 1px transparent;
+}
+.btn-conectar:hover{
+	opacity: 0.8;
+}
+.btn-conectar:hover, .btn-conectar:focus{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.texto-condiciones{
+	max-height: 440px;
+	background-color:#FFF;
+	display: block;
+	overflow-y: scroll; 
+	overflow-x: hidden; 
+	padding: 11px;
+}
+.logo-f{
+	margin-top: 50%;
+	display: block
+}/*
+ul{
+	margin: 0px;
+	padding: 0px;
+}*/
+.title-condiciones{
+	font-weight: 700;
+	font-size: 1.2rem;
+	color: #585757;
+}
+.lista-condiciones {
+	margin-left:-23px;
+	list-style: disc;
+	color: #5b7590;
+}
+.txt-condiciones{
+	color: #585757;
+}
